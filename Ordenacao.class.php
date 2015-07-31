@@ -10,6 +10,7 @@ class Ordenacao {
     public function OrdenaCrescente(){
         include './Objetos.php';
         ksort($clientes);
+
         echo '<table class="table">'
             . '<theader>'                
                 . '<td><b>Id</b></td>'
@@ -26,11 +27,14 @@ class Ordenacao {
             echo '</tr>';
         }
         echo '</table>';
+
+
     }
     
     public function OrdenaDecrescente() {
         include './Objetos.php';
         krsort($clientes);
+
         echo '<table class="table">'
             . '<theader>'                
                 . '<td>Id</td>'
@@ -47,7 +51,6 @@ class Ordenacao {
             echo '</tr>';
         }
         echo '</table>';
-    }
-    
-    
+
+    }   
 }

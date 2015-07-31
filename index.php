@@ -73,6 +73,7 @@ error_reporting(E_ALL);
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
+
         <a class="btn btn-primary" href="index.php?pag=14">Ordena Crescente</a>
         <a class="btn btn-primary" href="index.php?pag=15">Ordena Decrescente</a><br />
         <?php       
@@ -239,8 +240,8 @@ error_reporting(E_ALL);
                       echo "<b>Endereço Específico: </b>".$cliente14->getEndereco_especifico()."<br/><br/>";
                       echo '<a href="index.php?pag=14"/>Voltar</a>';
                   }
-                  
-              ?>
+       ?>
+
       </div>
     </div>    
 
@@ -248,7 +249,9 @@ error_reporting(E_ALL);
 
       <footer>
           <div class="container">
-            <p>&copy; Company 2015</p>
+
+            <p>&copy; Company 2015</p>           
+
           </div>
       </footer>
     </div> <!-- /container -->

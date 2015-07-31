@@ -3,6 +3,7 @@
 include_once './class/Cliente.class.php';
 include_once './class/PessoaJuridica.class.php';
 
+
 $cliente1 = new Cliente();
     $cliente1->setId("0");
     $cliente1->setNome("Fulano 0");
@@ -13,7 +14,7 @@ $cliente1 = new Cliente();
     $cliente1->setImportancia("1 estrela");
     $cliente1->setEndereco_especifico("Rua A");
    
-       
+
 $cliente2 = new Cliente();
     $cliente2->setId("1");
     $cliente2->setNome("Fulano 1");
@@ -23,6 +24,7 @@ $cliente2 = new Cliente();
     $cliente2->setNivel("Pessoa Fisica");
     $cliente2->setImportancia("2 estrelas");
     $cliente2->setEndereco_especifico("Rua B");
+
     
 $cliente3 = new Cliente();
     $cliente3->setId("2");
