@@ -1,15 +1,9 @@
 <?php
-
-/**
- * Description of PessoaJuridica
- *
- * @author Lucas
- */
-class PessoaJuridica extends Cliente{
+include_once 'PJInterface.php';
+class PessoaJuridica extends Cliente implements PJInterface{
     public $cnpj;
     public $razao_social;
-    public $nome_fantasia;
-    
+    public $nome_fantasia;    
     
     function getCnpj() {
         return $this->cnpj;
@@ -34,6 +28,5 @@ class PessoaJuridica extends Cliente{
     function setNome_fantasia($nome_fantasia) {
         $this->nome_fantasia = $nome_fantasia;
     }
-    
     
 }

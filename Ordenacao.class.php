@@ -27,8 +27,6 @@ class Ordenacao {
             echo '</tr>';
         }
         echo '</table>';
-
-
     }
     
     public function OrdenaDecrescente() {

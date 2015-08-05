@@ -3,20 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
+            <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/PessoaFisica.class.php</file>
             <file>file:/D:/cursos-arquivos/code.education/projeto_oo/dados_cliente.php</file>
             <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/PessoaJuridica.class.php</file>
+            <file>file:/D:/cursos-arquivos/code.education/projeto_oo/Cliente.class.php</file>
             <file>file:/D:/cursos-arquivos/code.education/projeto_oo/Ordenacao.class.php</file>
             <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/Cliente.class.php</file>
-            <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/NivelInterface.php</file>
+            <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/PJInterface.php</file>
+            <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/GrauDeImportanciaInterface.php</file>
             <file>file:/D:/cursos-arquivos/code.education/projeto_oo/index.php</file>
             <file>file:/D:/cursos-arquivos/code.education/projeto_oo/Objetos.php</file>
-=======
-            <file>file:/I:/Pendrive/projeto_oo/Objetos.php</file>
-            <file>file:/I:/Pendrive/projeto_oo/index.php</file>
-            <file>file:/I:/Pendrive/projeto_oo/Cliente.class.php</file>
-            <file>file:/I:/Pendrive/projeto_oo/Ordenacao.class.php</file>
->>>>>>> b1a42513f646842aa87e0cf389a6f108d3438b21
+            <file>file:/D:/cursos-arquivos/code.education/projeto_oo/class/PFInterface.php</file>
         </group>
     </open-files>
 </project-private>

@@ -1,10 +1,10 @@
 <?php
-include 'NivelInterface.php';
+include_once 'GrauDeImportanciaInterface.php';
+include_once 'EnderecoCobrancaInterface.php';
 
-class Cliente implements NivelInterface{
+class Cliente implements GrauDeImportanciaInterface, EnderecoCobrancaInterface{
     private $id;
-    private $nome;
-    private $cpf;
+    private $nome;    
     private $endereco;
     private $data_de_nascimento;
     private $nivel;
@@ -18,11 +18,7 @@ class Cliente implements NivelInterface{
     function getNome() {
         return $this->nome;
     }
-
-    function getCpf() {
-        return $this->cpf;
-    }
-
+    
     function getEndereco() {
         return $this->endereco;
     }
@@ -49,10 +45,6 @@ class Cliente implements NivelInterface{
 
     function setNome($nome) {
         $this->nome = $nome;
-    }
-
-    function setCpf($cpf) {
-        $this->cpf = $cpf;
     }
 
     function setEndereco($endereco) {

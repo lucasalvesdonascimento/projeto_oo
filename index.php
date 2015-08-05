@@ -79,6 +79,7 @@ error_reporting(E_ALL);
         <?php       
                   include_once './Objetos.php';
                   include_once './class/PessoaJuridica.class.php';
+                  include_once './class/PessoaFisica.class.php';
                   include_once './Ordenacao.class.php';
                   
                     if(isset($_GET["pag"])){
@@ -193,8 +194,7 @@ error_reporting(E_ALL);
                       echo '<a href="index.php?pag=14"/>Voltar</a>';
                   }elseif(isset($pag) && $pag==10){                                            
                       echo "<b>Id: </b>".$cliente11->getId()."<br/><br/>";                      
-                      echo "<b>Nome: </b>".$cliente11->getNome()."<br/><br/>";                      
-                      echo "<b>CPF: </b>".$cliente11->getCpf()."<br/><br/>";                      
+                      echo "<b>Nome: </b>".$cliente11->getNome()."<br/><br/>";                                          
                       echo "<b>Endereco: </b>".$cliente11->getEndereco()."<br/><br/>";                      
                       echo "<b>CNPJ: </b>".$cliente11->getCnpj()."<br/><br/>";
                       echo "<b>Razao Social: </b>".$cliente11->getRazao_social()."<br/><br/>";
@@ -205,8 +205,7 @@ error_reporting(E_ALL);
                       echo '<a href="index.php?pag=14"/>Voltar</a>';
                   }elseif(isset($pag) && $pag==11){                                            
                       echo "<b>Id: </b>".$cliente12->getId()."<br/><br/>";                      
-                      echo "<b>Nome: </b>".$cliente12->getNome()."<br/><br/>";                      
-                      echo "<b>CPF: </b>".$cliente12->getCpf()."<br/><br/>";                      
+                      echo "<b>Nome: </b>".$cliente12->getNome()."<br/><br/>";                     
                       echo "<b>Endereco: </b>".$cliente12->getEndereco()."<br/><br/>";                      
                       echo "<b>CNPJ: </b>".$cliente12->getCnpj()."<br/><br/>";
                       echo "<b>Razao Social: </b>".$cliente12->getRazao_social()."<br/><br/>";
@@ -217,8 +216,7 @@ error_reporting(E_ALL);
                       echo '<a href="index.php?pag=14"/>Voltar</a>';
                   }elseif(isset($pag) && $pag==12){                                            
                       echo "<b>Id: </b>".$cliente13->getId()."<br/><br/>";                      
-                      echo "<b>Nome: </b>".$cliente13->getNome()."<br/><br/>";                      
-                      echo "<b>CPF: </b>".$cliente13->getCpf()."<br/><br/>";                      
+                      echo "<b>Nome: </b>".$cliente13->getNome()."<br/><br/>";                    
                       echo "<b>Endereco: </b>".$cliente13->getEndereco()."<br/><br/>";                      
                       echo "<b>CNPJ: </b>".$cliente13->getCnpj()."<br/><br/>";
                       echo "<b>Razao Social: </b>".$cliente13->getRazao_social()."<br/><br/>";
@@ -230,7 +228,6 @@ error_reporting(E_ALL);
                   }elseif(isset($pag) && $pag==13){                                            
                       echo "<b>Id: </b>".$cliente14->getId()."<br/><br/>";                      
                       echo "<b>Nome: </b>".$cliente14->getNome()."<br/><br/>";                      
-                      echo "<b>CPF: </b>".$cliente14->getCpf()."<br/><br/>";                      
                       echo "<b>Endereco: </b>".$cliente14->getEndereco()."<br/><br/>";                      
                       echo "<b>CNPJ: </b>".$cliente14->getCnpj()."<br/><br/>";
                       echo "<b>Razao Social: </b>".$cliente14->getRazao_social()."<br/><br/>";

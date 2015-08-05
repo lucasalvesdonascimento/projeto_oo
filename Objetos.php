@@ -1,10 +1,9 @@
 <?php
-
 include_once './class/Cliente.class.php';
 include_once './class/PessoaJuridica.class.php';
+include_once './class/PessoaFisica.class.php';
 
-
-$cliente1 = new Cliente();
+$cliente1 = new PessoaFisica();
     $cliente1->setId("0");
     $cliente1->setNome("Fulano 0");
     $cliente1->setCpf("001.001.001-01");
@@ -15,7 +14,7 @@ $cliente1 = new Cliente();
     $cliente1->setEndereco_especifico("Rua A");
    
 
-$cliente2 = new Cliente();
+$cliente2 = new PessoaFisica();
     $cliente2->setId("1");
     $cliente2->setNome("Fulano 1");
     $cliente2->setCpf("002.002.002-02");
@@ -26,7 +25,7 @@ $cliente2 = new Cliente();
     $cliente2->setEndereco_especifico("Rua B");
 
     
-$cliente3 = new Cliente();
+$cliente3 = new PessoaFisica();
     $cliente3->setId("2");
     $cliente3->setNome("Fulano 2");
     $cliente3->setCpf("003.003.003-03");
@@ -36,7 +35,7 @@ $cliente3 = new Cliente();
     $cliente3->setImportancia("3 estrelas");
     $cliente3->setEndereco_especifico("Rua C");
 
-$cliente4 = new Cliente();
+$cliente4 = new PessoaFisica();
     $cliente4->setId("3");
     $cliente4->setNome("Fulano 3");
     $cliente4->setCpf("004.004.004-04");
@@ -46,7 +45,7 @@ $cliente4 = new Cliente();
     $cliente4->setImportancia("4 estrelas");
     $cliente4->setEndereco_especifico("Rua D");
 
-$cliente5 = new Cliente();
+$cliente5 = new PessoaFisica();
     $cliente5->setId("4");
     $cliente5->setNome("Fulano 4");
     $cliente5->setCpf("005.005.005-05");
@@ -56,7 +55,7 @@ $cliente5 = new Cliente();
     $cliente5->setImportancia("5 estrelas");
     $cliente5->setEndereco_especifico("Rua E");
     
-$cliente6 = new Cliente();
+$cliente6 = new PessoaFisica();
     $cliente6->setId("5");
     $cliente6->setNome("Fulano 5");
     $cliente6->setCpf("006.006.006-06");
@@ -66,7 +65,7 @@ $cliente6 = new Cliente();
     $cliente6->setImportancia("1 estrela");
     $cliente6->setEndereco_especifico("Rua F");
     
-$cliente7 = new Cliente();
+$cliente7 = new PessoaFisica();
     $cliente7->setId("6");
     $cliente7->setNome("Fulano 6");
     $cliente7->setCpf("007.007.007-07");
@@ -76,7 +75,7 @@ $cliente7 = new Cliente();
     $cliente7->setImportancia("2 estrelas");
     $cliente7->setEndereco_especifico("Rua G");
     
-$cliente8 = new Cliente();
+$cliente8 = new PessoaFisica();
     $cliente8->setId("7");
     $cliente8->setNome("Fulano 7");
     $cliente8->setCpf("008.008.008-08");
@@ -86,7 +85,7 @@ $cliente8 = new Cliente();
     $cliente8->setImportancia("3 estrelas");
     $cliente8->setEndereco_especifico("Rua H");
     
-$cliente9 = new Cliente();
+$cliente9 = new PessoaFisica();
     $cliente9->setId("8");
     $cliente9->setNome("Fulano 8");
     $cliente9->setCpf("009.009.009-09");
@@ -96,7 +95,7 @@ $cliente9 = new Cliente();
     $cliente9->setImportancia("4 estrelas");
     $cliente9->setEndereco_especifico("Rua I");
 
-$cliente10 = new Cliente();
+$cliente10 = new PessoaFisica();
     $cliente10->setId("9");
     $cliente10->setNome("Fulano 9");
     $cliente10->setCpf("010.010.010-10");
@@ -108,8 +107,7 @@ $cliente10 = new Cliente();
 
 $cliente11 = new PessoaJuridica();
     $cliente11->setId("10");
-    $cliente11->setNome("Fulano 10");
-    $cliente11->setCpf("010.010.010-10");
+    $cliente11->setNome("Fulano 10");    
     $cliente11->setEndereco("Rua 11");  
     $cliente11->setNivel("Pessoa Juridica");
     $cliente11->setCnpj("01.001.001/0001-01");
@@ -121,8 +119,7 @@ $cliente11 = new PessoaJuridica();
     
 $cliente12 = new PessoaJuridica();
     $cliente12->setId("11");
-    $cliente12->setNome("Fulano 11");
-    $cliente12->setCpf("011.011.011-11");
+    $cliente12->setNome("Fulano 11");    
     $cliente12->setEndereco("Rua 11"); 
     $cliente12->setNivel("Pessoa Juridica");
     $cliente12->setCnpj("02.002.002/0002-02");
@@ -134,8 +131,7 @@ $cliente12 = new PessoaJuridica();
     
 $cliente13 = new PessoaJuridica();
     $cliente13->setId("12");
-    $cliente13->setNome("Fulano 12");
-    $cliente13->setCpf("012.012.012-12");
+    $cliente13->setNome("Fulano 12");    
     $cliente13->setEndereco("Rua 12");  
     $cliente13->setNivel("Pessoa Juridica");
     $cliente13->setCnpj("03.003.003/0003-03");
@@ -147,8 +143,7 @@ $cliente13 = new PessoaJuridica();
     
 $cliente14 = new PessoaJuridica();
     $cliente14->setId("13");
-    $cliente14->setNome("Fulano 13");
-    $cliente14->setCpf("013.013.013-13");
+    $cliente14->setNome("Fulano 13");    
     $cliente14->setEndereco("Rua 13");
     $cliente14->setNivel("Pessoa Juridica");
     $cliente14->setCnpj("04.004.004/0004-04");
